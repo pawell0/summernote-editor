@@ -1,7 +1,7 @@
 {
     "version": 1,
     "plugins": {
-        "summernote-editor": {
+        "summernote-editor-lite": {
             "name": "Summernote Editor",
             "repo": "https://github.com/pawell0/summernote-editor/tree/master",
             "zip": "https://github.com/pawell0/summernote-editor/archive/refs/heads/master.zip",
