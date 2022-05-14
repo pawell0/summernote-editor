@@ -1,4 +1,5 @@
 // SummerNote plugin for WonderCMS, JavaScript
+// The extra icons in the menu have been changed to svg loaded directly. Look at lines 145 and 158.
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         define(['jquery'], factory);
@@ -26,8 +27,8 @@
 
             context.memo('button.files', function() {
                 var button = ui.button({
-                    contents: '<i class="glyphicon glyphicon-folder-open"/>',
-                    tooltip: 'files',
+                    contents: '<i class="note-icon-pencil"/>',
+                    tooltip: 'Document',
                     click: context.createInvokeHandler('files.showDialog', 'docs')
                 });
                 var $files = button.render();
@@ -141,7 +142,7 @@
             var ui = $.summernote.ui;
             context.memo('button.doc', function() {
                 var button = ui.button({
-                    contents: '<i class="glyphicon glyphicon-file"/>',
+                    contents: '<svg height="17" viewBox="0 0 17 17" width="17" xmlns="http://www.w3.org/2000/svg"><path d="m1.347656 16.996094c-.359375 0-.671875-.128906-.941406-.382813-.269531-.253906-.40625-.550781-.40625-.890625v-14.449218c0-.339844.136719-.636719.40625-.890626.269531-.253906.582031-.382812.941406-.382812h7.644532l5.398437 5.097656v5.738282h-1.347656v-4.886719h-4.949219v-4.675781h-6.746094v14.449218h9.21875v1.273438zm14.796875.023437-2.878906-2.722656v2.65625h-1.347656v-4.84375h5.125v1.273437h-2.832031l2.878906 2.722657zm-14.796875-1.296875v-14.449218zm0 0"/></svg>',
                     tooltip: 'Document',
                     click: context.createInvokeHandler('files.showDialog', 'docs')
                 });
@@ -154,7 +155,7 @@
             var ui = $.summernote.ui;
             context.memo('button.image', function() {
                 var button = ui.button({
-                    contents: '<i class="glyphicon glyphicon-picture"/>',
+                    contents: '<svg height="17" viewBox="0 0 17 17" width="17" xmlns="http://www.w3.org/2000/svg"><path d="m2.703125 13.292969h11.574219l-3.480469-4.628907-3.125 4.039063-2.199219-3zm-1.328125 3.707031c-.378906 0-.710938-.140625-.992188-.425781-.2851558-.28125-.4257808-.613281-.4257808-.992188v-14.164062c0-.378907.140625-.710938.4257808-.992188.28125-.285156.613282-.425781.992188-.425781h14.203125c.378906 0 .710937.140625.996094.425781.285156.28125.425781.613281.425781.992188v14.164062c0 .378907-.140625.710938-.425781.992188-.285157.285156-.617188.425781-.996094.425781zm0-1.417969h14.203125v-14.164062h-14.203125zm0-14.164062v14.164062zm0 0"/></svg>',
                     tooltip: 'Image',
                     click: context.createInvokeHandler('files.showDialog', 'images')
                 });
