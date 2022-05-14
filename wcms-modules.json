@@ -3,11 +3,11 @@
     "plugins": {
         "summernote-editor": {
             "name": "Summernote Editor",
-            "repo": "https://github.com/robiso/summernote-editor/tree/master",
-            "zip": "https://github.com/robiso/summernote-editor/archive/master.zip",
-            "summary": "Adds an WYSIWYG editor to all content editable fields.",
+            "repo": "https://github.com/pawell0/summernote-editor/tree/master",
+            "zip": "https://github.com/pawell0/summernote-editor/archive/refs/heads/master.zip",
+            "summary": "Adds an WYSIWYG editor to all content editable fields. This is the Summernote Lite editor.",
             "version": "3.2.3",
-            "image": "https://raw.githubusercontent.com/robiso/summernote-editor/master/preview.jpg"
+            "image": "https://github.com/pawell0/summernote-editor/blob/master/preview.jpg"
         }
     }
 }
