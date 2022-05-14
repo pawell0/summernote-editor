@@ -4,7 +4,7 @@
 This WonderCMS plugin adds a What You See Is What You Get (WYSIWYG) editor to all content editable fields.
 
 This is NOT a official version of this plugin. This is the fork made for testing purposes. 
-Changes have been applied, removing the jQuery and Bootstrap libraries. Lite version of Summernote editor was used - see to file "summernote-editor.php". Additional icons in the editor menu have been replaced with temporary SVG icons that load directly from the "/js/files.js" file. The editor still needs to adjust the stylesheets in the theme used so that all elements are properly displayed and visible.
+Changes have been applied, removing the jQuery and Bootstrap libraries and the Lite version of Summernote editor was used - see to file "summernote-editor.php". Additional icons in the editor menu have been replaced with temporary SVG icons that load directly from the "/js/files.js" file. The editor still needs to adjust the stylesheets in the theme used so that all elements are properly displayed and visible.
 
 ## Preview
 ![Plugin preview](/preview.jpg)
