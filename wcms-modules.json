@@ -6,7 +6,7 @@
             "repo": "https://github.com/pawell0/summernote-editor-lite/tree/master",
             "zip": "https://github.com/pawell0/summernote-editor-lite/archive/master.zip",
             "summary": "Adds an WYSIWYG editor to all content editable fields. This is the Summernote Lite editor.",
-            "version": "3.2.3",
+            "version": "1.0.0",
             "image": "https://raw.githubusercontent.com/pawell0/summernote-editor-lite/master/preview.jpg"
         }
     }
