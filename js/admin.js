@@ -15,7 +15,7 @@ $(function() {
             ['para', ['ul', 'ol', 'paragraph']],
             ['insert', ['link','image', 'doc', 'picture', 'video']], // image and doc are customized buttons
             ['table', ['table']],
-            ['misc', ['codeview']],
+            ['misc', ['codeview', 'help']],
         ],
         placeholder: 'Click here to enter content.',
         callbacks: {
