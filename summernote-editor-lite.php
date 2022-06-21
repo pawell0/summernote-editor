@@ -41,6 +41,7 @@ function loadSummerNoteJS($args) {
     global $Wcms;
     if ($Wcms->loggedIn) {
         $script = <<<EOT
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.20/summernote-lite.min.js" integrity="sha512-lVkQNgKabKsM1DA/qbhJRFQU8TuwkLF2vSN3iU/c7+iayKs08Y8GXqfFxxTZr1IcpMovXnf2N/ZZoMgmZep1YQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="{$Wcms->url('plugins/summernote-editor-lite/js/admin.js')}" type="text/javascript"></script>
         <script src="{$Wcms->url('plugins/summernote-editor-lite/js/files.js')}" type="text/javascript"></script>
