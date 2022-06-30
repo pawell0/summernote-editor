@@ -28,7 +28,7 @@
             context.memo('button.files', function() {
                 var button = ui.button({
                     contents: '<i class="note-icon-pencil"/>',
-                    tooltip: 'Document',
+                    tooltip: 'files',
                     click: context.createInvokeHandler('files.showDialog', 'docs')
                 });
                 var $files = button.render();
