@@ -1,8 +1,4 @@
 $(function() {
-    // Fix for admin settings corectly removing the active class in the menu
-    $(".nav-tabs li.nav-item a.nav-link").click(function() {
-        $(".nav-tabs li.nav-item a.nav-link").removeClass('active');
-    });
 
     var editElements = {};
     $('.editable').summernote({
